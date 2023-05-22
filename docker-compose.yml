@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  myrdkit:
+    image: myrdkit
+    build:
+      context: .
+      dockerfile: ./Dockerfile
